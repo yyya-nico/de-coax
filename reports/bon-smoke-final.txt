@@ -1,0 +1,14 @@
+open=1 elapsed_ms=578
+tune=1 elapsed_ms=2687
+capture bytes=4298244 bad_sync=0 TEI=0 CC=0 PAT=1 TSID=32224 mixed=0 CNR=22.83
+purge_ms=47
+capture bytes=4362352 bad_sync=0 TEI=0 CC=0 PAT=1 TSID=32224 mixed=0 CNR=22.88
+off_air_failed=1 elapsed_ms=610
+capture bytes=2244720 bad_sync=0 TEI=0 CC=0 PAT=1 TSID=32707 mixed=0 CNR=21.34
+capture bytes=2180612 bad_sync=0 TEI=0 CC=0 PAT=1 TSID=32224 mixed=0 CNR=22.10
+capture bytes=2180612 bad_sync=0 TEI=0 CC=0 PAT=1 TSID=32707 mixed=0 CNR=21.70
+capture bytes=2180612 bad_sync=0 TEI=0 CC=0 PAT=1 TSID=32224 mixed=0 CNR=22.20
+capture bytes=2180612 bad_sync=0 TEI=0 CC=0 PAT=1 TSID=32707 mixed=0 CNR=21.40
+capture bytes=2180612 bad_sync=0 TEI=0 CC=0 PAT=1 TSID=32224 mixed=0 CNR=22.30
+capture bytes=4362352 bad_sync=0 TEI=0 CC=0 PAT=1 TSID=32224 mixed=0 CNR=22.79
+result=PASS

@@ -1,0 +1,429 @@
+{"Time":"2026-10-27T03:27:38.8029253+09:00","Action":"start","Package":"cech.local/driver/cmd/cech-host"}
+{"Time":"2026-10-27T03:27:38.8029253+09:00","Action":"output","Package":"cech.local/driver/cmd/cech-host","Output":"?   \tcech.local/driver/cmd/cech-host\t[no test files]\n"}
+{"Time":"2026-10-27T03:27:38.8029253+09:00","Action":"skip","Package":"cech.local/driver/cmd/cech-host","Elapsed":0}
+{"Time":"2026-10-27T03:27:38.8440606+09:00","Action":"start","Package":"cech.local/driver/cmd/cechctl"}
+{"Time":"2026-10-27T03:27:38.8440606+09:00","Action":"output","Package":"cech.local/driver/cmd/cechctl","Output":"?   \tcech.local/driver/cmd/cechctl\t[no test files]\n"}
+{"Time":"2026-10-27T03:27:38.8440606+09:00","Action":"skip","Package":"cech.local/driver/cmd/cechctl","Elapsed":0}
+{"Time":"2026-10-27T03:27:38.8440606+09:00","Action":"start","Package":"cech.local/driver/internal/coaxd/demod/dib8096"}
+{"Time":"2026-10-27T03:27:39.3987269+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestCachedTuneSkipsSearchAndFallsBack"}
+{"Time":"2026-10-27T03:27:39.3987269+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestCachedTuneSkipsSearchAndFallsBack","Output":"=== RUN   TestCachedTuneSkipsSearchAndFallsBack\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestCachedTuneSkipsSearchAndFallsBack","Output":"--- PASS: TestCachedTuneSkipsSearchAndFallsBack (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestCachedTuneSkipsSearchAndFallsBack","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestContextRejectedBeforeIO"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestContextRejectedBeforeIO","Output":"=== RUN   TestContextRejectedBeforeIO\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestContextRejectedBeforeIO","Output":"--- PASS: TestContextRejectedBeforeIO (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestContextRejectedBeforeIO","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestLongestLayerInterleaver"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestLongestLayerInterleaver","Output":"=== RUN   TestLongestLayerInterleaver\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestLongestLayerInterleaver","Output":"--- PASS: TestLongestLayerInterleaver (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestLongestLayerInterleaver","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestInitialize"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestInitialize","Output":"=== RUN   TestInitialize\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestInitialize","Output":"--- PASS: TestInitialize (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestInitialize","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestInitializeRejectsUnknownChip"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestInitializeRejectsUnknownChip","Output":"=== RUN   TestInitializeRejectsUnknownChip\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestInitializeRejectsUnknownChip","Output":"--- PASS: TestInitializeRejectsUnknownChip (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestInitializeRejectsUnknownChip","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTunerThroughGate"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTunerThroughGate","Output":"=== RUN   TestTunerThroughGate\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTunerThroughGate","Output":"--- PASS: TestTunerThroughGate (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTunerThroughGate","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTune"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTune","Output":"=== RUN   TestTune\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTune","Output":"    dib8096_test.go:334: second tune: 391ms simulated\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTune","Output":"--- PASS: TestTune (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTune","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestSetGPIOSurvivesTune"}
+{"Time":"2026-10-27T03:27:39.3992562+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestSetGPIOSurvivesTune","Output":"=== RUN   TestSetGPIOSurvivesTune\n"}
+{"Time":"2026-10-27T03:27:39.3998793+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestSetGPIOSurvivesTune","Output":"--- PASS: TestSetGPIOSurvivesTune (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.3998793+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestSetGPIOSurvivesTune","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.3998793+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneGivesUp"}
+{"Time":"2026-10-27T03:27:39.3998793+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneGivesUp","Output":"=== RUN   TestTuneGivesUp\n"}
+{"Time":"2026-10-27T03:27:39.3998793+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneGivesUp","Output":"--- PASS: TestTuneGivesUp (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.3998793+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneGivesUp","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.3998793+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneNoSignal"}
+{"Time":"2026-10-27T03:27:39.3998793+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneNoSignal","Output":"=== RUN   TestTuneNoSignal\n"}
+{"Time":"2026-10-27T03:27:39.3998793+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneNoSignal","Output":"--- PASS: TestTuneNoSignal (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.3998793+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneNoSignal","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.3998793+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneCBand"}
+{"Time":"2026-10-27T03:27:39.3998793+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneCBand","Output":"=== RUN   TestTuneCBand\n"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneCBand","Output":"--- PASS: TestTuneCBand (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneCBand","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneRejects"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneRejects","Output":"=== RUN   TestTuneRejects\n"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneRejects","Output":"--- PASS: TestTuneRejects (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestTuneRejects","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestComputePLLParameters"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestComputePLLParameters","Output":"=== RUN   TestComputePLLParameters\n"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestComputePLLParameters","Output":"--- PASS: TestComputePLLParameters (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestComputePLLParameters","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestSNRArithmetic"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestSNRArithmetic","Output":"=== RUN   TestSNRArithmetic\n"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestSNRArithmetic","Output":"--- PASS: TestSNRArithmetic (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestSNRArithmetic","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestInterpolateStrength"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestInterpolateStrength","Output":"=== RUN   TestInterpolateStrength\n"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestInterpolateStrength","Output":"--- PASS: TestInterpolateStrength (0.00s)\n"}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Test":"TestInterpolateStrength","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.4003999+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Output":"PASS\n"}
+{"Time":"2026-10-27T03:27:39.4029656+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Output":"ok  \tcech.local/driver/internal/coaxd/demod/dib8096\t0.558s\n"}
+{"Time":"2026-10-27T03:27:39.4220933+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/demod/dib8096","Elapsed":0.578}
+{"Time":"2026-10-27T03:27:39.5601203+09:00","Action":"start","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47"}
+{"Time":"2026-10-27T03:27:39.5601203+09:00","Action":"start","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc"}
+{"Time":"2026-10-27T03:27:39.5601203+09:00","Action":"start","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/regs"}
+{"Time":"2026-10-27T03:27:39.5601203+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/regs","Output":"?   \tcech.local/driver/internal/coaxd/usb/bridge/mb86h47/regs\t[no test files]\n"}
+{"Time":"2026-10-27T03:27:39.5601203+09:00","Action":"skip","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/regs","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.5601203+09:00","Action":"start","Package":"cech.local/driver/internal/wire"}
+{"Time":"2026-10-27T03:27:39.5601203+09:00","Action":"start","Package":"cech.local/driver/pkg/fr30"}
+{"Time":"2026-10-27T03:27:39.5601203+09:00","Action":"start","Package":"cech.local/driver/pkg/fr30/sim"}
+{"Time":"2026-10-27T03:27:39.5601203+09:00","Action":"start","Package":"cech.local/driver/pkg/i2c"}
+{"Time":"2026-10-27T03:27:39.5601203+09:00","Action":"start","Package":"cech.local/driver/pkg/iso7816"}
+{"Time":"2026-10-27T03:27:39.5601203+09:00","Action":"start","Package":"cech.local/driver/pkg/usbio"}
+{"Time":"2026-10-27T03:27:39.5606523+09:00","Action":"start","Package":"cech.local/driver/pkg/usbio/backend"}
+{"Time":"2026-10-27T03:27:39.5606523+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/backend","Output":"?   \tcech.local/driver/pkg/usbio/backend\t[no test files]\n"}
+{"Time":"2026-10-27T03:27:39.5606523+09:00","Action":"skip","Package":"cech.local/driver/pkg/usbio/backend","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.5606523+09:00","Action":"start","Package":"cech.local/driver/pkg/usbio/injected"}
+{"Time":"2026-10-27T03:27:39.5606523+09:00","Action":"start","Package":"cech.local/driver/pkg/usbio/iokit"}
+{"Time":"2026-10-27T03:27:39.5606523+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/iokit","Output":"?   \tcech.local/driver/pkg/usbio/iokit\t[no test files]\n"}
+{"Time":"2026-10-27T03:27:39.5606523+09:00","Action":"skip","Package":"cech.local/driver/pkg/usbio/iokit","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.5606523+09:00","Action":"start","Package":"cech.local/driver/pkg/usbio/usbfs"}
+{"Time":"2026-10-27T03:27:39.5606523+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/usbfs","Output":"?   \tcech.local/driver/pkg/usbio/usbfs\t[no test files]\n"}
+{"Time":"2026-10-27T03:27:39.5606523+09:00","Action":"skip","Package":"cech.local/driver/pkg/usbio/usbfs","Elapsed":0}
+{"Time":"2026-10-27T03:27:39.5606523+09:00","Action":"start","Package":"cech.local/driver/pkg/usbio/winusb"}
+{"Time":"2026-10-27T03:27:39.5606523+09:00","Action":"start","Package":"cech.local/driver/receiver"}
+{"Time":"2026-10-27T03:27:40.083171+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio/winusb","Test":"TestSerialInReadsTheInstanceName"}
+{"Time":"2026-10-27T03:27:40.083171+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/winusb","Test":"TestSerialInReadsTheInstanceName","Output":"=== RUN   TestSerialInReadsTheInstanceName\n"}
+{"Time":"2026-10-27T03:27:40.083171+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/winusb","Test":"TestSerialInReadsTheInstanceName","Output":"--- PASS: TestSerialInReadsTheInstanceName (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.083171+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio/winusb","Test":"TestSerialInReadsTheInstanceName","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.083171+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/winusb","Output":"PASS\n"}
+{"Time":"2026-10-27T03:27:40.0870924+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/winusb","Output":"ok  \tcech.local/driver/pkg/usbio/winusb\t0.526s\n"}
+{"Time":"2026-10-27T03:27:40.1085259+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio/winusb","Elapsed":0.548}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"run","Package":"cech.local/driver/pkg/i2c","Test":"TestGatedWrapsTransfers"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"output","Package":"cech.local/driver/pkg/i2c","Test":"TestGatedWrapsTransfers","Output":"=== RUN   TestGatedWrapsTransfers\n"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"output","Package":"cech.local/driver/pkg/i2c","Test":"TestGatedWrapsTransfers","Output":"=== PAUSE TestGatedWrapsTransfers\n"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"pause","Package":"cech.local/driver/pkg/i2c","Test":"TestGatedWrapsTransfers"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"run","Package":"cech.local/driver/pkg/i2c","Test":"TestMask"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"output","Package":"cech.local/driver/pkg/i2c","Test":"TestMask","Output":"=== RUN   TestMask\n"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"output","Package":"cech.local/driver/pkg/i2c","Test":"TestMask","Output":"=== PAUSE TestMask\n"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"pause","Package":"cech.local/driver/pkg/i2c","Test":"TestMask"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"cont","Package":"cech.local/driver/pkg/i2c","Test":"TestGatedWrapsTransfers"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"output","Package":"cech.local/driver/pkg/i2c","Test":"TestGatedWrapsTransfers","Output":"=== CONT  TestGatedWrapsTransfers\n"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"output","Package":"cech.local/driver/pkg/i2c","Test":"TestGatedWrapsTransfers","Output":"--- PASS: TestGatedWrapsTransfers (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"pass","Package":"cech.local/driver/pkg/i2c","Test":"TestGatedWrapsTransfers","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"cont","Package":"cech.local/driver/pkg/i2c","Test":"TestMask"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"output","Package":"cech.local/driver/pkg/i2c","Test":"TestMask","Output":"=== CONT  TestMask\n"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"output","Package":"cech.local/driver/pkg/i2c","Test":"TestMask","Output":"--- PASS: TestMask (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"pass","Package":"cech.local/driver/pkg/i2c","Test":"TestMask","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1101532+09:00","Action":"output","Package":"cech.local/driver/pkg/i2c","Output":"PASS\n"}
+{"Time":"2026-10-27T03:27:40.1139294+09:00","Action":"output","Package":"cech.local/driver/pkg/i2c","Output":"ok  \tcech.local/driver/pkg/i2c\t0.553s\n"}
+{"Time":"2026-10-27T03:27:40.1344001+09:00","Action":"pass","Package":"cech.local/driver/pkg/i2c","Elapsed":0.574}
+{"Time":"2026-10-27T03:27:40.1417607+09:00","Action":"run","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestConditions"}
+{"Time":"2026-10-27T03:27:40.1417607+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachListsTheDevice"}
+{"Time":"2026-10-27T03:27:40.1417607+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestConditions","Output":"=== RUN   TestConditions\n"}
+{"Time":"2026-10-27T03:27:40.1417607+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachListsTheDevice","Output":"=== RUN   TestAttachListsTheDevice\n"}
+{"Time":"2026-10-27T03:27:40.1417607+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRIncompleteThenComplete"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRIncompleteThenComplete","Output":"=== RUN   TestParseATRIncompleteThenComplete\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRIncompleteThenComplete","Output":"--- PASS: TestParseATRIncompleteThenComplete (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRIncompleteThenComplete","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRRejectsBadStart"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRRejectsBadStart","Output":"=== RUN   TestParseATRRejectsBadStart\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRRejectsBadStart","Output":"--- PASS: TestParseATRRejectsBadStart (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRRejectsBadStart","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRRejectsBadCheckByte"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRRejectsBadCheckByte","Output":"=== RUN   TestParseATRRejectsBadCheckByte\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRRejectsBadCheckByte","Output":"--- PASS: TestParseATRRejectsBadCheckByte (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRRejectsBadCheckByte","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRReadsLineSpeed"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRReadsLineSpeed","Output":"=== RUN   TestParseATRReadsLineSpeed\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRReadsLineSpeed","Output":"--- PASS: TestParseATRReadsLineSpeed (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRReadsLineSpeed","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRReadsT1Parameters"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRReadsT1Parameters","Output":"=== RUN   TestParseATRReadsT1Parameters\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRReadsT1Parameters","Output":"--- PASS: TestParseATRReadsT1Parameters (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestParseATRReadsT1Parameters","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestBlockWaitIsClamped"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestBlockWaitIsClamped","Output":"=== RUN   TestBlockWaitIsClamped\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestBlockWaitIsClamped","Output":"--- PASS: TestBlockWaitIsClamped (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestBlockWaitIsClamped","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestCRC16"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestCRC16","Output":"=== RUN   TestCRC16\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestCRC16","Output":"--- PASS: TestCRC16 (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestCRC16","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestLRCOverAFrameComesToZero"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestLRCOverAFrameComesToZero","Output":"=== RUN   TestLRCOverAFrameComesToZero\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestLRCOverAFrameComesToZero","Output":"--- PASS: TestLRCOverAFrameComesToZero (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestLRCOverAFrameComesToZero","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitFramesAndStrips"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitFramesAndStrips","Output":"=== RUN   TestTransmitFramesAndStrips\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitFramesAndStrips","Output":"--- PASS: TestTransmitFramesAndStrips (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitFramesAndStrips","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitAlternatesTheBlockNumber"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitAlternatesTheBlockNumber","Output":"=== RUN   TestTransmitAlternatesTheBlockNumber\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitAlternatesTheBlockNumber","Output":"--- PASS: TestTransmitAlternatesTheBlockNumber (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitAlternatesTheBlockNumber","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitReassemblesAChainedAnswer"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitReassemblesAChainedAnswer","Output":"=== RUN   TestTransmitReassemblesAChainedAnswer\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitReassemblesAChainedAnswer","Output":"--- PASS: TestTransmitReassemblesAChainedAnswer (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitReassemblesAChainedAnswer","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitAnswersARequestForMoreTime"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitAnswersARequestForMoreTime","Output":"=== RUN   TestTransmitAnswersARequestForMoreTime\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitAnswersARequestForMoreTime","Output":"--- PASS: TestTransmitAnswersARequestForMoreTime (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitAnswersARequestForMoreTime","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitDropsTheSessionOnFailure"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitDropsTheSessionOnFailure","Output":"=== RUN   TestTransmitDropsTheSessionOnFailure\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitDropsTheSessionOnFailure","Output":"--- PASS: TestTransmitDropsTheSessionOnFailure (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitDropsTheSessionOnFailure","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitRefusesWithoutASession"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitRefusesWithoutASession","Output":"=== RUN   TestTransmitRefusesWithoutASession\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitRefusesWithoutASession","Output":"--- PASS: TestTransmitRefusesWithoutASession (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitRefusesWithoutASession","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitRefusesAnOversizedAPDU"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitRefusesAnOversizedAPDU","Output":"=== RUN   TestTransmitRefusesAnOversizedAPDU\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitRefusesAnOversizedAPDU","Output":"--- PASS: TestTransmitRefusesAnOversizedAPDU (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitRefusesAnOversizedAPDU","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetReadsTheATRAndAgreesABlockSize"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetReadsTheATRAndAgreesABlockSize","Output":"=== RUN   TestResetReadsTheATRAndAgreesABlockSize\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetReadsTheATRAndAgreesABlockSize","Output":"--- PASS: TestResetReadsTheATRAndAgreesABlockSize (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetReadsTheATRAndAgreesABlockSize","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetRefusesAnEmptySlot"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetRefusesAnEmptySlot","Output":"=== RUN   TestResetRefusesAnEmptySlot\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetRefusesAnEmptySlot","Output":"--- PASS: TestResetRefusesAnEmptySlot (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetRefusesAnEmptySlot","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetRetriesOnceOnAMalformedAnswer"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetRetriesOnceOnAMalformedAnswer","Output":"=== RUN   TestResetRetriesOnceOnAMalformedAnswer\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetRetriesOnceOnAMalformedAnswer","Output":"--- PASS: TestResetRetriesOnceOnAMalformedAnswer (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetRetriesOnceOnAMalformedAnswer","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1423081+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetReadsAnATRThatArrivesInPieces"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetReadsAnATRThatArrivesInPieces","Output":"=== RUN   TestResetReadsAnATRThatArrivesInPieces\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetReadsAnATRThatArrivesInPieces","Output":"--- PASS: TestResetReadsAnATRThatArrivesInPieces (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetReadsAnATRThatArrivesInPieces","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetOrdersTheBringUpByLineSpeed"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetOrdersTheBringUpByLineSpeed","Output":"=== RUN   TestResetOrdersTheBringUpByLineSpeed\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio","Test":"TestBulkReaderHandsOnEveryByteToASmallBuffer"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetOrdersTheBringUpByLineSpeed","Output":"--- PASS: TestResetOrdersTheBringUpByLineSpeed (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestResetOrdersTheBringUpByLineSpeed","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestBulkReaderHandsOnEveryByteToASmallBuffer","Output":"=== RUN   TestBulkReaderHandsOnEveryByteToASmallBuffer\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestInvalidateDiscardsEverything"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestInvalidateDiscardsEverything","Output":"=== RUN   TestInvalidateDiscardsEverything\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestInvalidateDiscardsEverything","Output":"--- PASS: TestInvalidateDiscardsEverything (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestInvalidateDiscardsEverything","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestReceiveTakesOnlyItsOwnBlock"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestReceiveTakesOnlyItsOwnBlock","Output":"=== RUN   TestReceiveTakesOnlyItsOwnBlock\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestReceiveTakesOnlyItsOwnBlock","Output":"--- PASS: TestReceiveTakesOnlyItsOwnBlock (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestReceiveTakesOnlyItsOwnBlock","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitAcceptsAFullSizeAnswer"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitAcceptsAFullSizeAnswer","Output":"=== RUN   TestTransmitAcceptsAFullSizeAnswer\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitAcceptsAFullSizeAnswer","Output":"--- PASS: TestTransmitAcceptsAFullSizeAnswer (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestTransmitAcceptsAFullSizeAnswer","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestExchangeClearsTheLineBeforeRetrying"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestExchangeClearsTheLineBeforeRetrying","Output":"=== RUN   TestExchangeClearsTheLineBeforeRetrying\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestExchangeClearsTheLineBeforeRetrying","Output":"--- PASS: TestExchangeClearsTheLineBeforeRetrying (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestExchangeClearsTheLineBeforeRetrying","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestExchangeAnswersACardInitiatedBlockSizeRequest"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestExchangeAnswersACardInitiatedBlockSizeRequest","Output":"=== RUN   TestExchangeAnswersACardInitiatedBlockSizeRequest\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestExchangeAnswersACardInitiatedBlockSizeRequest","Output":"--- PASS: TestExchangeAnswersACardInitiatedBlockSizeRequest (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestExchangeAnswersACardInitiatedBlockSizeRequest","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"run","Package":"cech.local/driver/pkg/iso7816","Test":"TestExchangeGrantsTheTimeItPromises"}
+{"Time":"2026-10-27T03:27:40.1429011+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestExchangeGrantsTheTimeItPromises","Output":"=== RUN   TestExchangeGrantsTheTimeItPromises\n"}
+{"Time":"2026-10-27T03:27:40.1434358+09:00","Action":"run","Package":"cech.local/driver/internal/wire","Test":"TestFrames"}
+{"Time":"2026-10-27T03:27:40.1434358+09:00","Action":"output","Package":"cech.local/driver/internal/wire","Test":"TestFrames","Output":"=== RUN   TestFrames\n"}
+{"Time":"2026-10-27T03:27:40.1434358+09:00","Action":"output","Package":"cech.local/driver/internal/wire","Test":"TestFrames","Output":"--- PASS: TestFrames (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1434358+09:00","Action":"pass","Package":"cech.local/driver/internal/wire","Test":"TestFrames","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1434358+09:00","Action":"output","Package":"cech.local/driver/internal/wire","Output":"PASS\n"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestBulkReaderHandsOnEveryByteToASmallBuffer","Output":"--- PASS: TestBulkReaderHandsOnEveryByteToASmallBuffer (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio","Test":"TestBulkReaderHandsOnEveryByteToASmallBuffer","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio","Test":"TestBulkReaderStopsAndOpensAgain"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestBulkReaderStopsAndOpensAgain","Output":"=== RUN   TestBulkReaderStopsAndOpensAgain\n"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestBulkReaderStopsAndOpensAgain","Output":"--- PASS: TestBulkReaderStopsAndOpensAgain (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio","Test":"TestBulkReaderStopsAndOpensAgain","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio","Test":"TestBulkReaderFallsBackWithoutARing"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestBulkReaderFallsBackWithoutARing","Output":"=== RUN   TestBulkReaderFallsBackWithoutARing\n"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestBulkReaderFallsBackWithoutARing","Output":"--- PASS: TestBulkReaderFallsBackWithoutARing (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio","Test":"TestBulkReaderFallsBackWithoutARing","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio","Test":"TestParseEndpointsSelectsInterface"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestParseEndpointsSelectsInterface","Output":"=== RUN   TestParseEndpointsSelectsInterface\n"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestParseEndpointsSelectsInterface","Output":"--- PASS: TestParseEndpointsSelectsInterface (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio","Test":"TestParseEndpointsSelectsInterface","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio","Test":"TestParseEndpointsOtherInterface"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestParseEndpointsOtherInterface","Output":"=== RUN   TestParseEndpointsOtherInterface\n"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestParseEndpointsOtherInterface","Output":"--- PASS: TestParseEndpointsOtherInterface (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio","Test":"TestParseEndpointsOtherInterface","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio","Test":"TestParseEndpointsMissingInterface"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestParseEndpointsMissingInterface","Output":"=== RUN   TestParseEndpointsMissingInterface\n"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestParseEndpointsMissingInterface","Output":"--- PASS: TestParseEndpointsMissingInterface (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio","Test":"TestParseEndpointsMissingInterface","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio","Test":"TestSelected"}
+{"Time":"2026-10-27T03:27:40.1439644+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestSelected","Output":"=== RUN   TestSelected\n"}
+{"Time":"2026-10-27T03:27:40.1445064+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestSelected","Output":"--- PASS: TestSelected (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1445064+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio","Test":"TestSelected","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1445064+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio","Test":"TestIDIn"}
+{"Time":"2026-10-27T03:27:40.1445064+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestIDIn","Output":"=== RUN   TestIDIn\n"}
+{"Time":"2026-10-27T03:27:40.1445064+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestIDIn","Output":"--- PASS: TestIDIn (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1445064+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio","Test":"TestIDIn","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1445064+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio","Test":"TestMeaningfulDropsSerialsOfZeros"}
+{"Time":"2026-10-27T03:27:40.1445064+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestMeaningfulDropsSerialsOfZeros","Output":"=== RUN   TestMeaningfulDropsSerialsOfZeros\n"}
+{"Time":"2026-10-27T03:27:40.1445064+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Test":"TestMeaningfulDropsSerialsOfZeros","Output":"--- PASS: TestMeaningfulDropsSerialsOfZeros (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1445064+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio","Test":"TestMeaningfulDropsSerialsOfZeros","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1445064+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Output":"PASS\n"}
+{"Time":"2026-10-27T03:27:40.1456913+09:00","Action":"output","Package":"cech.local/driver/internal/wire","Output":"ok  \tcech.local/driver/internal/wire\t0.586s\n"}
+{"Time":"2026-10-27T03:27:40.1472338+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachListsTheDevice","Output":"--- PASS: TestAttachListsTheDevice (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1472338+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachListsTheDevice","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1472338+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachNamesADeviceThatCameWithoutOne"}
+{"Time":"2026-10-27T03:27:40.1472338+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachNamesADeviceThatCameWithoutOne","Output":"=== RUN   TestAttachNamesADeviceThatCameWithoutOne\n"}
+{"Time":"2026-10-27T03:27:40.1477546+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio","Output":"ok  \tcech.local/driver/pkg/usbio\t0.587s\n"}
+{"Time":"2026-10-27T03:27:40.1596254+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachNamesADeviceThatCameWithoutOne","Output":"--- PASS: TestAttachNamesADeviceThatCameWithoutOne (0.01s)\n"}
+{"Time":"2026-10-27T03:27:40.1596254+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachNamesADeviceThatCameWithoutOne","Elapsed":0.01}
+{"Time":"2026-10-27T03:27:40.1596254+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachWithoutADescriptorFails"}
+{"Time":"2026-10-27T03:27:40.1596254+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachWithoutADescriptorFails","Output":"=== RUN   TestAttachWithoutADescriptorFails\n"}
+{"Time":"2026-10-27T03:27:40.1596254+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachWithoutADescriptorFails","Output":"--- PASS: TestAttachWithoutADescriptorFails (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1596254+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachWithoutADescriptorFails","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1596254+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachAgainReplacesAndClosesTheOldDescriptor"}
+{"Time":"2026-10-27T03:27:40.1596254+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachAgainReplacesAndClosesTheOldDescriptor","Output":"=== RUN   TestAttachAgainReplacesAndClosesTheOldDescriptor\n"}
+{"Time":"2026-10-27T03:27:40.1642715+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachAgainReplacesAndClosesTheOldDescriptor","Output":"--- PASS: TestAttachAgainReplacesAndClosesTheOldDescriptor (0.01s)\n"}
+{"Time":"2026-10-27T03:27:40.1642715+09:00","Action":"run","Package":"cech.local/driver/pkg/fr30","Test":"TestEncodings"}
+{"Time":"2026-10-27T03:27:40.1642715+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestEncodings","Output":"=== RUN   TestEncodings\n"}
+{"Time":"2026-10-27T03:27:40.1642715+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestEncodings","Output":"--- PASS: TestEncodings (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"pass","Package":"cech.local/driver/pkg/fr30","Test":"TestEncodings","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"run","Package":"cech.local/driver/pkg/fr30","Test":"TestBranches"}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestBranches","Output":"=== RUN   TestBranches\n"}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestBranches","Output":"--- PASS: TestBranches (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"pass","Package":"cech.local/driver/pkg/fr30","Test":"TestBranches","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"run","Package":"cech.local/driver/pkg/fr30","Test":"TestFarBranches"}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestFarBranches","Output":"=== RUN   TestFarBranches\n"}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestFarBranches","Output":"--- PASS: TestFarBranches (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"pass","Package":"cech.local/driver/pkg/fr30","Test":"TestFarBranches","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"run","Package":"cech.local/driver/pkg/fr30","Test":"TestInstructionSet"}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestInstructionSet","Output":"=== RUN   TestInstructionSet\n"}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestInstructionSet","Output":"--- PASS: TestInstructionSet (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"pass","Package":"cech.local/driver/pkg/fr30","Test":"TestInstructionSet","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"run","Package":"cech.local/driver/pkg/fr30","Test":"TestScheduleKeepsMeaning"}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestScheduleKeepsMeaning","Output":"=== RUN   TestScheduleKeepsMeaning\n"}
+{"Time":"2026-10-27T03:27:40.1642715+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachAgainReplacesAndClosesTheOldDescriptor","Elapsed":0.01}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestDetachClosesTheDescriptor"}
+{"Time":"2026-10-27T03:27:40.1647792+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestDetachClosesTheDescriptor","Output":"=== RUN   TestDetachClosesTheDescriptor\n"}
+{"Time":"2026-10-27T03:27:40.1663665+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio","Elapsed":0.606}
+{"Time":"2026-10-27T03:27:40.1669823+09:00","Action":"pass","Package":"cech.local/driver/internal/wire","Elapsed":0.607}
+{"Time":"2026-10-27T03:27:40.1684833+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestDetachClosesTheDescriptor","Output":"--- PASS: TestDetachClosesTheDescriptor (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1684833+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestDetachClosesTheDescriptor","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1684833+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestDetachWhatIsNotThere"}
+{"Time":"2026-10-27T03:27:40.1684833+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestDetachWhatIsNotThere","Output":"=== RUN   TestDetachWhatIsNotThere\n"}
+{"Time":"2026-10-27T03:27:40.1684833+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestDetachWhatIsNotThere","Output":"--- PASS: TestDetachWhatIsNotThere (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1684833+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestDetachWhatIsNotThere","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1684833+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestFoundOpensThroughTheAdopter"}
+{"Time":"2026-10-27T03:27:40.1684833+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestFoundOpensThroughTheAdopter","Output":"=== RUN   TestFoundOpensThroughTheAdopter\n"}
+{"Time":"2026-10-27T03:27:40.1728249+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestRandomExpressions"}
+{"Time":"2026-10-27T03:27:40.1728249+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestRandomExpressions","Output":"=== RUN   TestRandomExpressions\n"}
+{"Time":"2026-10-27T03:27:40.1738873+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestConditions","Output":"--- PASS: TestConditions (0.03s)\n"}
+{"Time":"2026-10-27T03:27:40.1738873+09:00","Action":"pass","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestConditions","Elapsed":0.03}
+{"Time":"2026-10-27T03:27:40.1738873+09:00","Action":"run","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestFrameAndCalls"}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestFrameAndCalls","Output":"=== RUN   TestFrameAndCalls\n"}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestFrameAndCalls","Output":"--- PASS: TestFrameAndCalls (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"pass","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestFrameAndCalls","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"run","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestArithmetic"}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestArithmetic","Output":"=== RUN   TestArithmetic\n"}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestArithmetic","Output":"--- PASS: TestArithmetic (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"pass","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestArithmetic","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"run","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestInterrupt"}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestInterrupt","Output":"=== RUN   TestInterrupt\n"}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestInterrupt","Output":"--- PASS: TestInterrupt (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"pass","Package":"cech.local/driver/pkg/fr30/sim","Test":"TestInterrupt","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestFoundOpensThroughTheAdopter","Output":"--- PASS: TestFoundOpensThroughTheAdopter (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestFoundOpensThroughTheAdopter","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestFoundGivesEachCandidateItsOwnDescriptor"}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestFoundGivesEachCandidateItsOwnDescriptor","Output":"=== RUN   TestFoundGivesEachCandidateItsOwnDescriptor\n"}
+{"Time":"2026-10-27T03:27:40.1741956+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30/sim","Output":"PASS\n"}
+{"Time":"2026-10-27T03:27:40.1780448+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30/sim","Output":"ok  \tcech.local/driver/pkg/fr30/sim\t0.617s\n"}
+{"Time":"2026-10-27T03:27:40.1801738+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestFoundGivesEachCandidateItsOwnDescriptor","Output":"--- PASS: TestFoundGivesEachCandidateItsOwnDescriptor (0.01s)\n"}
+{"Time":"2026-10-27T03:27:40.1801738+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestFoundGivesEachCandidateItsOwnDescriptor","Elapsed":0.01}
+{"Time":"2026-10-27T03:27:40.1807171+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestCloseDetachesEverything"}
+{"Time":"2026-10-27T03:27:40.1807171+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestCloseDetachesEverything","Output":"=== RUN   TestCloseDetachesEverything\n"}
+{"Time":"2026-10-27T03:27:40.1871944+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestCloseDetachesEverything","Output":"--- PASS: TestCloseDetachesEverything (0.01s)\n"}
+{"Time":"2026-10-27T03:27:40.1877385+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestCloseDetachesEverything","Elapsed":0.01}
+{"Time":"2026-10-27T03:27:40.1877385+09:00","Action":"run","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachHasALimit"}
+{"Time":"2026-10-27T03:27:40.1877385+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachHasALimit","Output":"=== RUN   TestAttachHasALimit\n"}
+{"Time":"2026-10-27T03:27:40.1931606+09:00","Action":"pass","Package":"cech.local/driver/pkg/fr30/sim","Elapsed":0.633}
+{"Time":"2026-10-27T03:27:40.3052872+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestRandomExpressions","Output":"--- PASS: TestRandomExpressions (0.13s)\n"}
+{"Time":"2026-10-27T03:27:40.3052872+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestRandomExpressions","Elapsed":0.13}
+{"Time":"2026-10-27T03:27:40.3052872+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestStatements"}
+{"Time":"2026-10-27T03:27:40.3052872+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestStatements","Output":"=== RUN   TestStatements\n"}
+{"Time":"2026-10-27T03:27:40.306893+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestStatements","Output":"--- PASS: TestStatements (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.306893+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestStatements","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.306893+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestDivModU"}
+{"Time":"2026-10-27T03:27:40.306893+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestDivModU","Output":"=== RUN   TestDivModU\n"}
+{"Time":"2026-10-27T03:27:40.3187173+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestDivModU","Output":"--- PASS: TestDivModU (0.01s)\n"}
+{"Time":"2026-10-27T03:27:40.3187173+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestDivModU","Elapsed":0.01}
+{"Time":"2026-10-27T03:27:40.3187173+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestTailCall"}
+{"Time":"2026-10-27T03:27:40.3187173+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestTailCall","Output":"=== RUN   TestTailCall\n"}
+{"Time":"2026-10-27T03:27:40.3187173+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestTailCall","Output":"--- PASS: TestTailCall (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.3187173+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Test":"TestTailCall","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.3187173+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Output":"PASS\n"}
+{"Time":"2026-10-27T03:27:40.319382+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachHasALimit","Output":"--- PASS: TestAttachHasALimit (0.13s)\n"}
+{"Time":"2026-10-27T03:27:40.319382+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio/injected","Test":"TestAttachHasALimit","Elapsed":0.13}
+{"Time":"2026-10-27T03:27:40.319382+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Output":"PASS\n"}
+{"Time":"2026-10-27T03:27:40.3221269+09:00","Action":"output","Package":"cech.local/driver/pkg/usbio/injected","Output":"ok  \tcech.local/driver/pkg/usbio/injected\t0.761s\n"}
+{"Time":"2026-10-27T03:27:40.3226347+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Output":"ok  \tcech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc\t0.763s\n"}
+{"Time":"2026-10-27T03:27:40.3386538+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47/fr30/fc","Elapsed":0.779}
+{"Time":"2026-10-27T03:27:40.4435671+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Test":"TestExchangeGrantsTheTimeItPromises","Output":"--- PASS: TestExchangeGrantsTheTimeItPromises (0.30s)\n"}
+{"Time":"2026-10-27T03:27:40.4435671+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Test":"TestExchangeGrantsTheTimeItPromises","Elapsed":0.3}
+{"Time":"2026-10-27T03:27:40.4435671+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Output":"PASS\n"}
+{"Time":"2026-10-27T03:27:40.4464892+09:00","Action":"output","Package":"cech.local/driver/pkg/iso7816","Output":"ok  \tcech.local/driver/pkg/iso7816\t0.886s\n"}
+{"Time":"2026-10-27T03:27:40.4603918+09:00","Action":"run","Package":"cech.local/driver/receiver","Test":"TestContinuity"}
+{"Time":"2026-10-27T03:27:40.4603918+09:00","Action":"pass","Package":"cech.local/driver/pkg/iso7816","Elapsed":0.9}
+{"Time":"2026-10-27T03:27:40.4603918+09:00","Action":"output","Package":"cech.local/driver/receiver","Test":"TestContinuity","Output":"=== RUN   TestContinuity\n"}
+{"Time":"2026-10-27T03:27:40.4609315+09:00","Action":"output","Package":"cech.local/driver/receiver","Test":"TestContinuity","Output":"--- PASS: TestContinuity (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.4609315+09:00","Action":"pass","Package":"cech.local/driver/receiver","Test":"TestContinuity","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.4614253+09:00","Action":"run","Package":"cech.local/driver/receiver","Test":"TestAdaptationAndReset"}
+{"Time":"2026-10-27T03:27:40.4614253+09:00","Action":"output","Package":"cech.local/driver/receiver","Test":"TestAdaptationAndReset","Output":"=== RUN   TestAdaptationAndReset\n"}
+{"Time":"2026-10-27T03:27:40.4619565+09:00","Action":"output","Package":"cech.local/driver/receiver","Test":"TestAdaptationAndReset","Output":"--- PASS: TestAdaptationAndReset (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.4619565+09:00","Action":"pass","Package":"cech.local/driver/receiver","Test":"TestAdaptationAndReset","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.4619565+09:00","Action":"run","Package":"cech.local/driver/receiver","Test":"TestPATCRC"}
+{"Time":"2026-10-27T03:27:40.4619565+09:00","Action":"output","Package":"cech.local/driver/receiver","Test":"TestPATCRC","Output":"=== RUN   TestPATCRC\n"}
+{"Time":"2026-10-27T03:27:40.4624998+09:00","Action":"output","Package":"cech.local/driver/receiver","Test":"TestPATCRC","Output":"--- PASS: TestPATCRC (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.4624998+09:00","Action":"pass","Package":"cech.local/driver/receiver","Test":"TestPATCRC","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.4624998+09:00","Action":"output","Package":"cech.local/driver/receiver","Output":"PASS\n"}
+{"Time":"2026-10-27T03:27:40.4663225+09:00","Action":"output","Package":"cech.local/driver/receiver","Output":"ok  \tcech.local/driver/receiver\t0.905s\n"}
+{"Time":"2026-10-27T03:27:40.481942+09:00","Action":"pass","Package":"cech.local/driver/receiver","Elapsed":0.921}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCardLineReadsWhatWaits"}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCardLineReadsWhatWaits","Output":"=== RUN   TestCardLineReadsWhatWaits\n"}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCardLineReadsWhatWaits","Output":"--- PASS: TestCardLineReadsWhatWaits (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCardLineReadsWhatWaits","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCardLineWritesBlock"}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCardLineWritesBlock","Output":"=== RUN   TestCardLineWritesBlock\n"}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCardLineWritesBlock","Output":"--- PASS: TestCardLineWritesBlock (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCardLineWritesBlock","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCardLinePresence"}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCardLinePresence","Output":"=== RUN   TestCardLinePresence\n"}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCardLinePresence","Output":"--- PASS: TestCardLinePresence (0.00s)\n"}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCardLinePresence","Elapsed":0}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCore1Model"}
+{"Time":"2026-10-27T03:27:40.5120044+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCore1Model","Output":"=== RUN   TestCore1Model\n"}
+{"Time":"2026-10-27T03:27:40.7052099+09:00","Action":"pass","Package":"cech.local/driver/pkg/usbio/injected","Elapsed":1.145}
+{"Time":"2026-10-27T03:27:41.4963925+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestScheduleKeepsMeaning","Output":"    sched_test.go:148: 2969 of 3000 runs reordered\n"}
+{"Time":"2026-10-27T03:27:41.4973827+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestScheduleKeepsMeaning","Output":"--- PASS: TestScheduleKeepsMeaning (1.33s)\n"}
+{"Time":"2026-10-27T03:27:41.4973827+09:00","Action":"pass","Package":"cech.local/driver/pkg/fr30","Test":"TestScheduleKeepsMeaning","Elapsed":1.33}
+{"Time":"2026-10-27T03:27:41.4973827+09:00","Action":"run","Package":"cech.local/driver/pkg/fr30","Test":"TestSlotsKeepMeaning"}
+{"Time":"2026-10-27T03:27:41.4973827+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestSlotsKeepMeaning","Output":"=== RUN   TestSlotsKeepMeaning\n"}
+{"Time":"2026-10-27T03:27:41.827713+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCore1Model","Output":"--- PASS: TestCore1Model (1.32s)\n"}
+{"Time":"2026-10-27T03:27:41.827713+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestCore1Model","Elapsed":1.32}
+{"Time":"2026-10-27T03:27:41.827713+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestFramerKeepsPackets"}
+{"Time":"2026-10-27T03:27:41.827713+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestFramerKeepsPackets","Output":"=== RUN   TestFramerKeepsPackets\n"}
+{"Time":"2026-10-27T03:27:41.827713+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestFramerKeepsPackets","Output":"--- PASS: TestFramerKeepsPackets (0.00s)\n"}
+{"Time":"2026-10-27T03:27:41.827713+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestFramerKeepsPackets","Elapsed":0}
+{"Time":"2026-10-27T03:27:41.827713+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestFramerWaitsForConfirmation"}
+{"Time":"2026-10-27T03:27:41.827713+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestFramerWaitsForConfirmation","Output":"=== RUN   TestFramerWaitsForConfirmation\n"}
+{"Time":"2026-10-27T03:27:41.827713+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestFramerWaitsForConfirmation","Output":"--- PASS: TestFramerWaitsForConfirmation (0.00s)\n"}
+{"Time":"2026-10-27T03:27:41.827713+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestFramerWaitsForConfirmation","Elapsed":0}
+{"Time":"2026-10-27T03:27:41.827713+09:00","Action":"run","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestTrapRecorder"}
+{"Time":"2026-10-27T03:27:41.827713+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestTrapRecorder","Output":"=== RUN   TestTrapRecorder\n"}
+{"Time":"2026-10-27T03:27:41.8287414+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestTrapRecorder","Output":"--- PASS: TestTrapRecorder (0.00s)\n"}
+{"Time":"2026-10-27T03:27:41.8287414+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Test":"TestTrapRecorder","Elapsed":0}
+{"Time":"2026-10-27T03:27:41.8287414+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Output":"PASS\n"}
+{"Time":"2026-10-27T03:27:41.8317706+09:00","Action":"output","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Output":"ok  \tcech.local/driver/internal/coaxd/usb/bridge/mb86h47\t2.272s\n"}
+{"Time":"2026-10-27T03:27:41.8431986+09:00","Action":"pass","Package":"cech.local/driver/internal/coaxd/usb/bridge/mb86h47","Elapsed":2.283}
+{"Time":"2026-10-27T03:27:42.7308318+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestSlotsKeepMeaning","Output":"    sched_test.go:263: 3000 of 3000 programs changed\n"}
+{"Time":"2026-10-27T03:27:42.7314414+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Test":"TestSlotsKeepMeaning","Output":"--- PASS: TestSlotsKeepMeaning (1.23s)\n"}
+{"Time":"2026-10-27T03:27:42.7314414+09:00","Action":"pass","Package":"cech.local/driver/pkg/fr30","Test":"TestSlotsKeepMeaning","Elapsed":1.23}
+{"Time":"2026-10-27T03:27:42.7314414+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Output":"PASS\n"}
+{"Time":"2026-10-27T03:27:42.7340739+09:00","Action":"output","Package":"cech.local/driver/pkg/fr30","Output":"ok  \tcech.local/driver/pkg/fr30\t3.173s\n"}
+{"Time":"2026-10-27T03:27:42.744142+09:00","Action":"pass","Package":"cech.local/driver/pkg/fr30","Elapsed":3.184}

@@ -1,0 +1,7 @@
+open=1 elapsed_ms=531
+tune=1 elapsed_ms=2437
+capture bytes=21560216 bad_sync=0 PAT=1 CNR=22.28
+purge_ms=47
+capture bytes=4298244 bad_sync=0 PAT=1 CNR=22.55
+capture bytes=4362352 bad_sync=0 PAT=1 CNR=22.43
+result=PASS

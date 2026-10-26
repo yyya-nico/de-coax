@@ -1,0 +1,8 @@
+/.cache/
+/bin/
+/dist/
+*.obj
+*.lib
+*.exp
+*.log
+/reports/*.ts

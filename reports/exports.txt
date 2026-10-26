@@ -1,0 +1,1 @@
+WinSCard exports verified against System32: 80 names and ordinals matched.

@@ -1,0 +1,4 @@
+connect=00000000 protocol=2
+capture bytes=10843652 bad_sync=0 TEI=0 CC=0 PAT=1 TSID=32224 mixed=0 CNR=22.20
+capture bytes=4426648 bad_sync=0 TEI=0 CC=0 PAT=1 TSID=32224 mixed=0 CNR=22.97
+APDU_calls=46 card_ok=1 sharing=1 purge=1 after_tuner_close=1 result=PASS
