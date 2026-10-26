@@ -1,6 +1,8 @@
 ; Copyright 2026 Till0196
 ; SPDX-License-Identifier: Apache-2.0
 ;
+; 2026: yyya_nico changed Class and ClassGuid to Media.
+;
 ; Development INF for binding the Sony CECH-ZD1 J to the in-box WinUSB
 ; driver. Production distribution requires a signed catalog.
 
