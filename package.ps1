@@ -2,7 +2,7 @@ param([string]$Label='20261027')
 $ErrorActionPreference='Stop'
 if($Label -notmatch '^[a-zA-Z0-9_-]+$'){throw 'Label must contain only letters, digits, underscores, or hyphens'}
 $root=$PSScriptRoot
-$common=@('README.md','COPYING','NOTICE','LICENSE-APACHE','docs') | ForEach-Object {Join-Path $root $_}
+$common=@('README.md','COPYING','NOTICE','LICENSE-APACHE','docs','driver') | ForEach-Object {Join-Path $root $_}
 foreach($architecture in @('x64','x86')){
  $folder=Join-Path $root "dist/$architecture"
  $files=@('BonDriver_CECH.dll','WinSCard.dll','cech-host.exe','cechctl.exe','bon_smoke.exe','card_smoke.exe') | ForEach-Object {Join-Path $folder $_}
