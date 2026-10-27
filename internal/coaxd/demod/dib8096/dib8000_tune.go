@@ -708,8 +708,16 @@ func (state *dib8000) setSyncWait() {
 // 100ms steps until the callback time, so every step waited at least that
 // long, and some steps need more than the callback time they ask for:
 // started 1ms after the FFT search ends, the guard search can report a
-// failure. 10ms held on every try, on the CECH-ZD1 J under Linux and Windows.
+// failure. Keep this short for manual tuning and the other acquisition steps;
+// the initial FFT search needs the additional settling delay below.
 const minTuneStep = 10 * time.Millisecond
+
+// FFT discovery started after only minTuneStep can misidentify an 8K signal as
+// 2K, especially on weaker channels. An extra 90ms before starting the search
+// restored acquisition on the CECH-ZD1 J; waiting before reading its result did
+// not. Together with minTuneStep this gives 100ms after demodStart, without
+// slowing cached manual tunes or every subsequent demodulator step.
+const fftSearchSettle = 90 * time.Millisecond
 
 // getTimeout is dib8000_get_timeout: delay is in 100us units, or in symbols
 // when symbolDependent.
@@ -816,6 +824,9 @@ func (state *dib8000) tune() int {
 		state.symbolDuration = uint8(state.getSymbolDuration())
 
 	case demodSearchNext: // 51
+		if state.autosearchState == autosearchSearchingFFT {
+			state.sleep(fftSearchSettle)
+		}
 		state.autosearchStart()
 		ret = 15
 		state.tuneState = demodStep1
