@@ -1,4 +1,4 @@
-param([ValidateSet('x64','x86')][string]$Architecture='x64')
+﻿param([ValidateSet('x64','x86')][string]$Architecture='x64')
 $ErrorActionPreference='Stop'
 $root=$PSScriptRoot
 $env:GOCACHE=Join-Path $root '.cache/go-build'
