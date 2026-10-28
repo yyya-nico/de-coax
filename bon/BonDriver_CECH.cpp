@@ -168,11 +168,16 @@ class Bon final : public IBonDriver2 {
             cleanup();
             return false;
         }
-        std::wstring log = directory + L"cech-host-" + std::to_wstring(GetCurrentProcessId()) +
-                           L"-" + std::to_wstring(GetTickCount64()) + L".log";
-        errorFile = CreateFileW(log.c_str(), GENERIC_WRITE, FILE_SHARE_READ, &security, CREATE_NEW,
-                                FILE_ATTRIBUTE_NORMAL, nullptr);
-        if (errorFile == INVALID_HANDLE_VALUE)
+        // File logging is opt-in: opening a tuner/card must not leave empty logs.
+        wchar_t logEnabled[2]{};
+        if (GetEnvironmentVariableW(L"CECH_HOST_LOG", logEnabled, 2) == 1 &&
+            logEnabled[0] == L'1') {
+            std::wstring log = directory + L"cech-host-" + std::to_wstring(GetCurrentProcessId()) +
+                               L"-" + std::to_wstring(GetTickCount64()) + L".log";
+            errorFile = CreateFileW(log.c_str(), GENERIC_WRITE, FILE_SHARE_READ, &security, CREATE_NEW,
+                                    FILE_ATTRIBUTE_NORMAL, nullptr);
+        }
+        if (!errorFile || errorFile == INVALID_HANDLE_VALUE)
             errorFile = CreateFileW(L"NUL", GENERIC_WRITE, FILE_SHARE_READ | FILE_SHARE_WRITE,
                                     &security, OPEN_EXISTING, 0, nullptr);
         if (errorFile == INVALID_HANDLE_VALUE) {
