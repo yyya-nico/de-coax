@@ -1,4 +1,4 @@
-param([string]$Label='20261027')
+param([string]$Label=(Get-Date).ToString('yyyyMMdd'))
 $ErrorActionPreference='Stop'
 if($Label -notmatch '^[a-zA-Z0-9_-]+$'){throw 'Label must contain only letters, digits, underscores, or hyphens'}
 $root=$PSScriptRoot
